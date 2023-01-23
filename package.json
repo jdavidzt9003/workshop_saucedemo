@@ -1,0 +1,23 @@
+{
+  "name": "workshop_saudedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run"
+  },
+  "author": "David Zaraza",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "eslint": "^8.32.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}
